@@ -44,9 +44,9 @@
 
 ## 🖼️ Screenshots
 
-| Main Interface        | Theme Picker              | Retro Theme Chat        |
-| --------------------- | ------------------------- | ----------------------- |
-| ![Chat](sc1/chat.png) | ![Themes](sc2/themes.png) | ![Retro](sc3/retro.png) |
+| Main Interface   | Theme Picker       | Retro Theme Chat  |
+| ---------------- | ------------------ | ----------------- |
+| ![Chat](sc1.png) | ![Themes](sc2.png) | ![Retro](sc3.png) |
 
 ---
 
