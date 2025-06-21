@@ -1,19 +1,68 @@
-# ✨ Full Stack Realtime Chat App ✨
+# 💬 Mersaal - Real-Time Chat Application
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+**Mersaal** is a real-time chat application built with the MERN stack and **Socket.IO**. It allows users to communicate instantly, personalize the chat experience with over 30 unique color themes, and update their profile pictures using **Cloudinary**.
 
-[Video Tutorial on Youtube](https://youtu.be/ntKkVrQqBYY)
+![Mersaal Preview](sc1.png)
+![Mersaal Preview](sc2.png)
+![Mersaal Preview](sc3.png)
 
-Highlights:
+---
 
-- 🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
-- 🎃 Authentication && Authorization with JWT
-- 👾 Real-time messaging with Socket.io
-- 🚀 Online user status
-- 👌 Global state management with Zustand
-- 🐞 Error handling both on the server and on the client
-- ⭐ At the end Deployment like a pro for FREE!
-- ⏳ And much more!
+## 🌟 Features
+
+- ⚡ Real-time messaging using **Socket.IO**
+- 🎨 30+ vibrant themes to customize the interface
+- 🖼️ Upload profile pictures directly via **Cloudinary**
+- 🔐 Secure authentication with **bcrypt** password hashing
+- 📃 Contact list with online/offline user status
+- 🧑 Profile settings: change avatar and theme
+- 🌐 Responsive and modern UI using **TailwindCSS**
+- 📁 Backend API built with **Node.js** and **Express**
+- 🗃️ MongoDB database for user and message storage
+
+---
+
+## 🧰 Tech Stack
+
+### 🔹 Frontend
+
+- React
+- TailwindCSS
+- Axios
+- Socket.IO Client
+
+### 🔸 Backend
+
+- Node.js
+- Express.js
+- MongoDB with Mongoose
+- bcrypt
+- Cloudinary SDK
+- Socket.IO
+
+---
+
+## 🖼️ Screenshots
+
+| Main Interface        | Theme Picker              | Retro Theme Chat        |
+| --------------------- | ------------------------- | ----------------------- |
+| ![Chat](sc1/chat.png) | ![Themes](sc2/themes.png) | ![Retro](sc3/retro.png) |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- MongoDB (local or Atlas)
+- A Cloudinary account
+
+### 1. Clone the Repository
+
+````bash
+git clone https://github.com/your-username/mersaal.git
+cd mersaal
 
 ### Setup .env file
 
@@ -27,7 +76,7 @@ CLOUDINARY_API_KEY=...
 CLOUDINARY_API_SECRET=...
 
 NODE_ENV=development
-```
+````
 
 ### Build the app
 
@@ -40,4 +89,5 @@ npm run build
 ```shell
 npm start
 ```
+
 # Chat-App
