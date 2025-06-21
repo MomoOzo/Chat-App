@@ -60,7 +60,8 @@ cd mersaal
 
 ### Setup .env file
 
-```js
+```
+
 MONGODB_URI=...
 PORT=5001
 JWT_SECRET=...
@@ -83,5 +84,3 @@ npm run build
 ```shell
 npm start
 ```
-
-# Chat-App
