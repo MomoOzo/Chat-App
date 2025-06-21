@@ -2,9 +2,11 @@
 
 **Mersaal** is a real-time chat application built with the MERN stack and **Socket.IO**. It allows users to communicate instantly, personalize the chat experience with over 30 unique color themes, and update their profile pictures using **Cloudinary**.
 
-![Mersaal Preview](sc1.png)
-![Mersaal Preview](sc2.png)
-![Mersaal Preview](sc3.png)
+## 🖼️ Screenshots
+
+| Main Interface   | Theme Picker       | Retro Theme Chat  |
+| ---------------- | ------------------ | ----------------- |
+| ![Chat](sc1.png) | ![Themes](sc2.png) | ![Retro](sc3.png) |
 
 ---
 
@@ -39,14 +41,6 @@
 - bcrypt
 - Cloudinary SDK
 - Socket.IO
-
----
-
-## 🖼️ Screenshots
-
-| Main Interface   | Theme Picker       | Retro Theme Chat  |
-| ---------------- | ------------------ | ----------------- |
-| ![Chat](sc1.png) | ![Themes](sc2.png) | ![Retro](sc3.png) |
 
 ---
 
